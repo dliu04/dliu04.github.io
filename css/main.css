@@ -10,7 +10,7 @@
     --Blue: #4361EE;
     --BabyBlue: #4895EF;
     --Cyan: #4CC9F0;
-    --TransparentWhite: hsla(0, 0%, 100%, 0.116);
+    --TransparentWhite: hsla(0, 0%, 100%, 0.103);
     --TransparentBlack: hsla(0, 0%, 0%, 0.116);
 }
 
@@ -19,7 +19,6 @@ body {
     padding: 0;
     min-height: 100vh;
     background-image: linear-gradient(80deg, var(--HotPink), var(--Magenta), var(--Cyan));
-    overflow-x: hidden;
     font-family: "Nunito Sans", sans-serif;
 }
 
@@ -36,10 +35,6 @@ body {
     font-family: "Nanum Gothic Coding", monospace;
 }
 
-.header-text {
-    text-align: center;
-    margin-top: 100px;
-}
 
 .nav-link{
     color: black !important;
@@ -55,12 +50,47 @@ body {
     text-decoration: underline;
 }
 
+.card {
+    width: 80%;
+    border-radius: 10px;
+    border-color: var(--TransparentWhite);
+    background-color: var(--TransparentWhite);
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#card-content{
+    font-family: "PT Sans Caption", sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+#special-text{
+    font-family: "Coiny", system-ui;
+    color: var(--Cyan);
+    font-size: 90px;
+}
+
+#blob-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
 #up, #down, #left, #right {
     position: absolute;
     z-index: -1;
     border-radius: 50%;
     filter: blur(80px);
 }
+
 
 #up {
     height: 800px;

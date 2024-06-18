@@ -9,16 +9,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Nanum+Gothic+Coding&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Coiny&family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
         <!-- Bootstrap CSS -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
     </head>
     
     <body>
-        <section id="up"></section>
-        <section id="down"></section>
-        <section id="left"></section>
-        <section id="right"></section>
+        <div id="blob-container">
+            <div id="up"></div>
+            <div id="down"></div>
+            <div id="left"></div>
+            <div id="right"></div>
+        </div>        
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
             <a class="navbar-brand" href="#">Dylan Liu</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,12 +46,12 @@
             </div>
         </nav>
     
-        <header>
-            <div class="header-text">
-                <h1>Welcome to my website</h1>
-                <p>Test Content</p>
-            </div>
-        </header>
+        <div class="card">
+            <p id="card-content">Hello! I am</p>
+            <p id="special-text">Dylan Liu</p>
+            <p id="card-content">a student @ Oregon State University. I like to build things in my free time!</p>
+        </div>
+ 
     
         <!-- Bootstrap JS and dependencies -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
