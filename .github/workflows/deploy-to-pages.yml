@@ -5,6 +5,7 @@ on:
 jobs:
   deploy-to-pages:
     runs-on: ubuntu-latest # Use the latest version of Ubuntu, Linux virtual machine
+    # needs: build-and-test # Wait for the build-and-test job to complete before running this job
     permissions: # Define the permissions for the job
       pages: write
       id-token: write
@@ -13,5 +14,5 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/configure-pages@v5
-      - uses: actions/deploy-pages@v4 # Used in conjunction with upload pages
+      - uses: actions/deploy-pages@v3 # Used in conjunction with upload pages
         id: deployment
