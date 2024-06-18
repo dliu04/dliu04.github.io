@@ -10,7 +10,8 @@
     --Blue: #4361EE;
     --BabyBlue: #4895EF;
     --Cyan: #4CC9F0;
-    --TransparentBlue: hsla(195, 100%, 28%, 0.5);
+    --TransparentWhite: hsla(0, 0%, 100%, 0.116);
+    --TransparentBlack: hsla(0, 0%, 0%, 0.116);
 }
 
 body{
@@ -21,8 +22,45 @@ body{
     overflow: hidden;
     font-family: "Nunito Sans", sans-serif;
 }
+
+nav{
+    background-color: var(--TransparentBlack);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    backdrop-filter: blue(5px);
+    padding: 10px 30px;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.nav-links li{
+    margin: 0 10px;
+}
+
+.nav-links a{
+    color: black;
+    transition: 0.3s;
+}
+.nav-links a:hover{
+    color: rgb(70, 70, 70);
+}
+.nav-links a:active{
+    color: white;
+}
+.nav-links a:visited{
+    color: black;
+}
+
+
 #up{
     position: absolute;
+    z-index: -1;
     height: 800px;
     width: 800px;
     border-radius: 50%;
@@ -32,6 +70,7 @@ body{
 }
 #down{
     position: absolute;
+    z-index: -1;
     right: 0;
     height: 500px;
     width: 500px;
@@ -42,19 +81,21 @@ body{
 }
 #left{
     position: absolute;
+    z-index: -1;
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, var(--Blueberry), var(--GrassyGreen));
+    background-image: linear-gradient(80deg, var(--GrassyGreen), var(--BabyBlue));
     filter: blur(80px);
     animation: left 30s 1s infinite;
 }
 #right{
     position: absolute;
+    z-index: -1;
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, var(--MangoOrange), var(--Magenta));
+    background-image: linear-gradient(100deg, var(--MangoOrange), var(--Magenta));
     filter: blur(80px);
     animation: right 40s .5s infinite;
 }
