@@ -1,0 +1,92 @@
+:root {
+    --MangoOrange: #f5a91b;
+    --GrassyGreen: #8ac926;
+    --HotPink: #F72585;
+    --Magenta: #B5179E;
+    --Purple: #7209B7; 
+    --DarkPurple: #560BAD;
+    --DarkestPurple: #480CA8;
+    --Blueberry: #3F37C9;
+    --Blue: #4361EE;
+    --BabyBlue: #4895EF;
+    --Cyan: #4CC9F0;
+    --TransparentBlue: hsla(195, 100%, 28%, 0.5);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(80deg, var(--HotPink), var(--Magenta), var(--Cyan));
+    overflow: hidden;
+    font-family: "Nunito Sans", sans-serif;
+}
+#up{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg, var(--Magenta), var(--MangoOrange));
+    filter: blur(80px);
+    animation: down 40s infinite;
+}
+#down{
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg, var(--DarkPurple), var(--HotPink));
+    filter: blur(80px);
+    animation: up 30s infinite;
+}
+#left{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg, var(--Blueberry), var(--GrassyGreen));
+    filter: blur(80px);
+    animation: left 30s 1s infinite;
+}
+#right{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg, var(--MangoOrange), var(--Magenta));
+    filter: blur(80px);
+    animation: right 40s .5s infinite;
+}
+@keyframes down{
+    0%, 100%{
+        top: -100px;
+    }
+    70%{
+        top: 700px;
+    }
+}
+@keyframes up{
+    0%, 100%{
+        bottom: -100px;
+    }
+    70%{
+        bottom: 700px;
+    }
+}
+@keyframes left{
+    0%, 100%{
+        left: -100px;
+    }
+    70%{
+        left: 1300px;
+    }
+}
+@keyframes right{
+    0%, 100%{
+        right: -100px;
+    }
+    70%{
+        right: 1300px;
+    }
+}
