@@ -1,0 +1,17 @@
+name: Deploy to GitHub Pages
+on:
+  push: 
+    branches: [ main ] # Run the workflow only when the code is pushed to the main branch
+jobs:
+  deploy-to-pages:
+    runs-on: ubuntu-latest # Use the latest version of Ubuntu, Linux virtual machine
+    permissions: # Define the permissions for the job
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4 # Used in conjunction with upload pages
+        id: deployment
