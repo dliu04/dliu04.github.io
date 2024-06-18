@@ -66,13 +66,13 @@ body {
 #card-content{
     font-family: "PT Sans Caption", sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #special-text{
     font-family: "Coiny", system-ui;
-    color: var(--Cyan);
-    font-size: 90px;
+    color: rgb(0, 255, 221);
+    font-size: 80px;
 }
 
 #blob-container {
