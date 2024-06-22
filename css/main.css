@@ -49,68 +49,6 @@ body {
     text-decoration: underline;
 }
 
-.card {
-    width: 80%;
-    border-radius: 10px;
-    border-color: var(--TransparentWhite);
-    background-color: var(--TransparentWhite);
-    padding: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-#card-content {
-    text-align: center;
-    font-family: "PT Sans Caption", sans-serif;
-    color: white;
-    font-size: 50px;
-}
-
-#card-content .color {
-    color: #ffd900;
-}
-
-#card-content .color a{
-    color: rgb(159, 255, 242);
-    text-decoration: underline;
-}
-
-#card-content .color a:hover {
-    color: rgb(0, 252, 63);
-    transition: 0.3s;
-    text-decoration: underline;
-}
-
-#special-text {
-    font-family: "Alata", sans-serif;
-    color: rgb(159, 255, 242);
-    text-shadow: 2px 2px 4px #7f109b;
-    font-size: 90px;
-    text-align: center;
-}
-
-#card-links{
-    display: flex;
-    font-family: "Roboto Mono", monospace;
-    font-size: 20px;
-    color: rgb(159, 255, 242);
-    text-decoration: underline;
-    justify-content: space-around; 
-}
-
-#card-links a {
-    color: rgb(159, 255, 242);
-}
-
-#card-links a:hover {
-    color: rgb(0, 252, 63);
-    transition: 0.3s;
-    text-decoration: underline;
-}
-
 #blob-container {
     position: fixed;
     top: 0;
