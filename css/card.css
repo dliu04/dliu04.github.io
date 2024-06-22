@@ -71,8 +71,8 @@
 
     #card-links {
         font-size: 20px;
-        flex-direction: column; /* Stack links vertically */
-        align-items: center; /* Center links horizontally */
-        padding: 0 10px; /* Adjust padding to fit within the viewport */
+        flex-direction: column; 
+        align-items: center; 
+        padding: 0 10px; 
     }
 }
