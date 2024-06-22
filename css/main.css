@@ -20,6 +20,7 @@ body {
     min-height: 100vh;
     background-image: linear-gradient(80deg, var(--HotPink), var(--Magenta), var(--Cyan));
     font-family: "Nunito Sans", sans-serif;
+    overflow-x: hidden;
 }
 
 .custom-navbar {
@@ -113,4 +114,11 @@ body {
 @keyframes right {
     0%, 100% { right: -50px; }
     70% { right: 1000px; }
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-navbar {
+        background-color: var(--TransparentBlack) !important;
+        padding: 5px 50px !important;
+    }
 }
