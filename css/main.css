@@ -63,11 +63,25 @@ body {
 }
 
 #card-content {
+    text-align: center;
     font-family: "PT Sans Caption", sans-serif;
     color: white;
     font-size: 50px;
-    text-align: center;
-    
+}
+
+#card-content .color {
+    color: #ffd900;
+}
+
+#card-content .color a{
+    color: rgb(159, 255, 242);
+    text-decoration: underline;
+}
+
+#card-content .color a:hover {
+    color: rgb(0, 252, 63);
+    transition: 0.3s;
+    text-decoration: underline;
 }
 
 #special-text {
