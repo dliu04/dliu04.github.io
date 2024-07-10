@@ -41,6 +41,20 @@
     text-align: center;
 }
 
+#about-text {
+    font-family: "PT Sans Caption", sans-serif;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: 25px;
+    text-align: left;
+}
+
+#about-text + ul.about-text li {
+    color: rgb(255, 255, 255); /* Change the color to white */
+    font-size: 18px; /* Example of changing the font size */
+    font-style: italic; 
+}
+
 #card-links{
     display: flex;
     font-family: "Roboto Mono", monospace;
