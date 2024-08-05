@@ -50,14 +50,7 @@ body {
     text-decoration: underline;
 }
 
-#about-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
+
 
 #about-title {
     position: absolute;
@@ -65,8 +58,8 @@ body {
     left: 0;
     font-family: "PT Sans Caption", sans-serif;
     color: white;
-    font-size: 30px; /* Adjust as needed */
-    padding: 10px; /* Adjust padding as needed */
+    font-size: 30px; 
+    padding: 10px; 
 }
 
 #blob-container {
