@@ -50,18 +50,6 @@ body {
     text-decoration: underline;
 }
 
-
-
-#about-title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "PT Sans Caption", sans-serif;
-    color: white;
-    font-size: 30px; 
-    padding: 10px; 
-}
-
 #blob-container {
     position: fixed;
     top: 0;

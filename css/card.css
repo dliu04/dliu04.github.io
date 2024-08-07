@@ -46,6 +46,16 @@
     align-items: center; 
 }
 
+.about-header{
+    position: relative;
+    text-align: left;
+    font-family: "Nanum Gothic Coding", monospace;
+    color: black;
+    margin-top: 2%; 
+    padding-left: 11%;
+    margin-bottom: -4%; 
+}
+
 #about-text {
     font-family: "PT Sans Caption", sans-serif;
     color: rgb(255, 255, 255);
@@ -97,6 +107,7 @@
     transition: 0.3s;
     text-decoration: underline;
 }
+
 
 @media only screen and (max-width: 600px) {
     #about-container {
