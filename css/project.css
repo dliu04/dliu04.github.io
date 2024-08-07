@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.project-card {
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+.project-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.project-text {
+    padding: 20px;
+    text-align: center;
+}
+
+#project-title {
+    font-size: 2em;
+    font-family: "Roboto Mono", monospace;
+    color: black;
+    margin-top: 0;
+}
+
+#project-description{
+    font-size: 1em;
+    font-style: italic;
+    color: rgb(78, 78, 78);
+}
+
+.project-text h2 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        margin: 10px 0;
+    }
+}

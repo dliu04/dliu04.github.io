@@ -14,7 +14,7 @@
         <!-- Bootstrap CSS -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/card.css">
+        <link rel="stylesheet" href="css/project.css">
     </head>
     
     <body>
@@ -45,33 +45,38 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-
-        <div class="card">
-            <div id="about-container">
-                <div id="about-text">
-                    <p>
-                        Hi! I am Dylan, a CS student from Portland, Oregon. I am currently attending Oregon State University with 
-                        a major in Computer Science and a minor in Japanese. I love to create new things! Some of my hobbies include:
-                    </p>
-                    <ul class="about-text">
-                        <li>Drawing</li>
-                        <li>Making silly computer science projects</li>
-                        <li>Playing the guitar</li>
-                        <li>Video / photo editing</li>
-                        <li>Listening to j-pop</li>
-                        <li>Reading manga!</li>
-                    </ul>
+        </nav>   
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-photo">
+                            <img src="public/images/epiclab.png" alt="Project Photo">
+                        </div>
+                        <div class="project-text">
+                            <h2 id="project-title">EPICLab Website</h2>
+                            <p id="project-description">
+                                Led a team to design and create a website for my research team, EPICLab. We designed and implemented a visually engaging website focused on 
+                                seamless browsing experience hosted entirely on Git Pages.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <img id="about-photo" src="/public/images/Dylan.JPG" alt="About Photo">
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-photo">
+                            <img src="your-photo-url.jpg" alt="Project Photo">
+                        </div>
+                        <div class="project-text">
+                            <h2>Project Title</h2>
+                            <p>Project description</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
             </div>
-            <div id="about-text-more">
-                <p>
-                    I am excited to participate in the MECOP program in Spring 2025, beginning
-                    my journey in the software engineering industry with a 6 month internship.
-                </p>
-            </div>
-        </div>        
+        </div>
  
         <!-- Bootstrap JS and dependencies -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
