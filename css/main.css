@@ -43,7 +43,8 @@
 }
 
 #loading-text {
-    font-size: 16px; 
+    font-size: 20px; 
+    font-family: "Nanum Gothic Coding", monospace;
     color: #fff1f1; 
 }
 
