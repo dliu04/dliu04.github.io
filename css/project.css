@@ -33,6 +33,13 @@ body {
     color: rgb(78, 78, 78);
 }
 
+#project-technologies{
+    font-size: 1em;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-style: bold;
+    color: rgb(78, 78, 78);
+}
+
 .project-text h2 {
     margin-top: 0;
 }

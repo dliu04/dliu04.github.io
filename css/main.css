@@ -91,11 +91,11 @@ body {
     left: 0;
     right: 0;
     overflow: hidden;
+    z-index: -1; /* Ensure it stays behind other content */
 }
 
 #up, #down, #left, #right {
     position: absolute;
-    z-index: -1;
     border-radius: 50%;
     filter: blur(50px);
     will-change: transform;
