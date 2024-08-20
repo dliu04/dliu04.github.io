@@ -75,7 +75,7 @@
 
 .contact-list{
     font-family: "PT Sans Caption", sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     text-align: left;
     display: flex;
@@ -89,13 +89,17 @@
 
 li a#contact-links {
     font-family: "Roboto Mono", monospace;
-    color: black;
+    color: rgb(159, 255, 242);
     text-decoration: underline; 
   }
 
 li a#contact-links:hover {
-    color: rgb(0, 204, 255);
+    color: rgb(0, 252, 63);
     transition: 0.3s;
+}
+
+.contact-list li img {
+    filter: invert(100%);
 }
 
 #about-text-more {
