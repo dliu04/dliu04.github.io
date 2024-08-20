@@ -114,6 +114,19 @@ li a#contact-links:hover {
     font-style: italic; 
 }
 
+.about-text li a {
+    font-family: "Roboto Mono", monospace;
+    color: rgb(159, 255, 242);
+    text-decoration: underline; 
+
+}
+
+.about-text li a:hover {
+    color: rgb(0, 252, 63);
+    transition: 0.3s;
+}
+
+
 #about-photo {
     margin-left: 5%;
     max-width: 30%; 
