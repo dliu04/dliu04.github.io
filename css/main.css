@@ -66,6 +66,11 @@ body {
     font-family: "Roboto Mono", monospace;
 }
 
+.navbar-icon{
+    max-width: 25px;
+    margin-right: 10px;
+}
+
 .nav-link {
     font-family: "Nanum Gothic Coding", monospace;
 }
