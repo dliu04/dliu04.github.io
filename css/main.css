@@ -57,6 +57,7 @@ body {
     overflow-x: hidden;
 }
 
+
 .custom-navbar {
     background-color: var(--TransparentBlack) !important;
     padding: 5px 100px !important;
@@ -87,6 +88,18 @@ body {
 .nav-item.active .nav-link {
     color: white !important;
     text-decoration: underline;
+}
+
+.footer { 
+    font-family: "Nanum Gothic Coding", monospace;
+    color: white;
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 3%;
 }
 
 #blob-container {
